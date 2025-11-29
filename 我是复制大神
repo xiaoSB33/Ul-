@@ -1,1 +1,91 @@
-111
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getglobal Instance
+getfield -1 new
+pushstring Tool
+pushvalue -4
+pcall 2 1 0
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getfield -1 Tool
+pushstring Flashlight
+setfield -2 Name
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getfield -1 Flashlight
+getglobal Instance
+getfield -1 new
+pushstring Part
+pushvalue -4
+pcall 2 1 0
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getfield -1 Flashlight
+getfield -1 Part
+pushstring Handle
+setfield -2 Name
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getfield -1 Flashlight
+getfield -1 Handle
+getglobal Vector3
+getfield -1 new
+pushnumber 1
+pushnumber 1
+pushnumber 1
+pcall 3 1 0
+setfield -3 Size
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getfield -1 Flashlight
+getfield -1 Handle
+getglobal Instance
+getfield -1 new
+pushstring SpecialMesh
+pushvalue -4
+pcall 2 0 0
+settop 0
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getfield -1 Flashlight
+getfield -1 Handle
+getfield -1 Mesh
+pushstring rbxassetid://115955313
+setfield -2 MeshId
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getfield -1 Flashlight
+getfield -1 Handle
+getfield -1 Mesh
+pushstring rbxassetid://6345482939
+setfield -2 TextureId
+emptystack
+settop 0
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Backpack
+getfield -1 Flashlight
+getfield -1 Handle
+getglobal Instance
+getfield -1 new
+pushstring SpotLight
+pushvalue -4
+pcall 2 1 0
